@@ -1,7 +1,8 @@
 # Git e GitHub - Anotações
 
-# Olá! Esses são meus estudos de Git e Github.
+Olá! Esses são meus estudos de Git e Github.
 
+---------------------------------------------------------------------------
 
 - O que é Git? Git é um sistema de versionamento de arquivos. Por que usamos ele?
 
@@ -21,11 +22,11 @@
 
     * Organização
 
----------------------------------------------------------------------------!
+---------------------------------------------------------------------------
 
 - O que é GitHub? GitHub é uma plataforma (software) para hospedagem de arquivo git que trabalha como um repositório remoto.
 
-    <img src="images/g.png">
+    <img src="images/g.png" size="100px">
 
 ---------------------------------------------------------------------------
 
@@ -43,8 +44,40 @@
 
     * Forks
 
-    
+---------------------------------------------------------------------------
 
+# Vocabulário
 
+ - Branch: são ramificações do projeto. Podemos usar como um esboço que não altera a branch master(ou main). São utilizados para separar alterações grandes ou novas funcionalidades do projeto.
 
+ - Commit: é um grupo de alterações no código. Toda vez que você quiser "salvar" as alterações feitas por você no repositório, você commita essas mudanças.
+
+ - Push: envia o código para o repositório online.
+
+ - Merge: é a união de duas branches. Normalmente, merges são feitos na branch master. 
+
+ - Pull: é uma atualização do repositório local. É feito um merge do repositório online com o local para que os conflitos sejam resolvidos e seja possível enviar o código (sem conflitos) para o repositório online por meio de um push.
+
+ - Fork: é como um clone, porém dentro do github. Isso quer dizer que o repositório não vai ser baixado para 
+ seu computador, mas será criado um igual na sua conta.
+
+ - Pull request: é um pedido que se faz ao dono do repositório para que este atualize o código dele com o seu código.
+
+ - Clone: funciona como uma branch de um repositório online em um repositório local. Ou seja, quando se deseja trabalhar em um repositório hospedado no github, clona-se esse repositório para o seu computador, trabalha-se nele, e então é pedida a permissão para atualizar as alterações online.
+
+---------------------------------------------------------------------------
+
+# Comandos Básicos Git Bash
+
+ - git --version (vê a versão do Git)
+ - git init (inicializa um repositório git, já entra em uma branch master)
+ - git add (adiciona uma alteração no diretório ativo à área de staging)
+ - git add . (adiciona todas as alterações de uma vez à área de staging)
+ - git commit -m "..." (faz um commit)
+ - git branch -M "..." (altera o nome da branch)
+ - git push origin "nome da branch" (coloca suas alterações no repositório do GitHub)
+ - git checkout "nome da branch" (entra na branch escolhida)
+ - git merge "nome da branch" (junta a branch escolhina na atual (main))
+
+---------------------------------------------------------------------------
 
