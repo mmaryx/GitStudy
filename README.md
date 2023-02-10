@@ -26,8 +26,6 @@ Olá! Esses são meus estudos de Git e Github.
 
 - O que é GitHub? GitHub é uma plataforma (software) para hospedagem de arquivo git que trabalha como um repositório remoto.
 
-    <img src="images/g.png" size="100px">
-
 ---------------------------------------------------------------------------
 
 -Vantagens:
