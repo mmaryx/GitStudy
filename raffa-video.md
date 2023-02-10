@@ -29,6 +29,6 @@
     * Características de rede social
     * GitHub Pages integrado
     * Colaboração
-    * Forks
+    
 
     
