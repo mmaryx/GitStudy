@@ -1,44 +1,44 @@
-# Git e GitHub - Anotações
+# Git e GitHub - Notes
 
-Olá! Esses são meus estudos de Git e Github.
-
----------------------------------------------------------------------------
-
-- O que é Git? Git é um sistema de versionamento de arquivos. Por que usamos ele?
-
-    Como exemplo posso usar um projeto de um cliente que teve muitas alterações. De forma tradicional, iriamos "zipar" e ir enviando para o cliente, conforme ele vai pedindo alterações nós vamos criando mais e mais pastas zipadas. Caso o cliente fale que quer algo que você utilizou na primeira versão, porém que já foi excluido da sua versão atual, para achar esse item, teria que abrir pasta por pasta atrás do item. Sem contar quando existem mais de uma pessoa trabalhando nesse mesmo projeto tendo que fazer alterações.
-
-    Com o git é diferente. Quando o cliente aprova uma versão, ele não gera um zip, ele faz um commit em um repositório local. E várias pessoas podem também fazer esses commits. Após finalizar um commit você faz um push para um repositório remoto. Assim todos que fazem parte do projeto conseguem ver as suas alterações.
-
--Vantagens:
-
-    * Controle de histórico
-
-    * Trabalho em equipe
-
-    * Ramificação do projeto
-
-    * Segurança
-
-    * Organização
+Hi! This is my Git and Github studies.
 
 ---------------------------------------------------------------------------
 
-- O que é GitHub? GitHub é uma plataforma (software) para hospedagem de arquivo git que trabalha como um repositório remoto.
+- What is Git? Git is a sistem of file versioning. Why using he?
+
+    As an example I can use a client's project that had many changes. Traditionally, we would "zip" and send it to the client, as he asks for changes we will create more and more zipped folders. If the customer says that he wants something that you used in the first version, but that has already been excluded from your current version, to find that item, you would have to open folder by folder behind the item.
+
+    With Git it's different. When the client approves a release, we don't generate a zip, we commit it to a local repository. And multiple people can also make these commits. After finishing a commit you push it to a remote repository. This way everyone who is part of the project can see your changes.
+
+-benefits:
+
+    * History Control
+
+    * Team Work
+
+    * Project Branching
+
+    * Security
+
+    * Organization
 
 ---------------------------------------------------------------------------
 
--Vantagens:
+- What is GitHub? GitHub is a platform (software) for hosting git files, which works through a remote repository.
 
-    * Repositórios ilimitados
+---------------------------------------------------------------------------
 
-    * Hospedagem de código-fonte
+-benefits:
 
-    * Características de rede social
+    * Unlimited Repositories
 
-    * GitHub Pages integrado
+    * Source Code Hosting
 
-    * Colaboração
+    * Social Networking Features
+
+    * Integrated GitHub Pages
+    
+    * Collaboration
 
     * Forks
 
@@ -46,36 +46,35 @@ Olá! Esses são meus estudos de Git e Github.
 
 # Vocabulário
 
- - Branch: são ramificações do projeto. Podemos usar como um esboço que não altera a branch master(ou main). São utilizados para separar alterações grandes ou novas funcionalidades do projeto.
+ - Branch: are branches of the project. We can use it as a stub that doesn't change the master(or main) branch. They are used to separate major changes or new features of the project.
 
- - Commit: é um grupo de alterações no código. Toda vez que você quiser "salvar" as alterações feitas por você no repositório, você commita essas mudanças.
+ - Commit: is a group of code changes. Every time you want to "save" the changes you made to the repository, you commit those changes.
 
- - Push: envia o código para o repositório online.
+ - Push: uploads the code to the online repository.
 
- - Merge: é a união de duas branches. Normalmente, merges são feitos na branch master. 
+ - Merge:is the union of two branches. Typically, merges are done on the master branch.
 
- - Pull: é uma atualização do repositório local. É feito um merge do repositório online com o local para que os conflitos sejam resolvidos e seja possível enviar o código (sem conflitos) para o repositório online por meio de um push.
+ - Pull: it is an update from the local repository. The online repository is merged with the local one so that conflicts are resolved and it is possible to push the code (without conflicts) to the online repository via a push.
 
- - Fork: é como um clone, porém dentro do github. Isso quer dizer que o repositório não vai ser baixado para 
- seu computador, mas será criado um igual na sua conta.
+ - Fork: it's like a clone, but inside github. This means that the repository will not be downloaded to your computer, but an equal one will be created on your account.
+ 
+ - Pull request:is a request made to the owner of the repository to update his code with your code.
 
- - Pull request: é um pedido que se faz ao dono do repositório para que este atualize o código dele com o seu código.
-
- - Clone: funciona como uma branch de um repositório online em um repositório local. Ou seja, quando se deseja trabalhar em um repositório hospedado no github, clona-se esse repositório para o seu computador, trabalha-se nele, e então é pedida a permissão para atualizar as alterações online.
+ - Clone: works like a branch of an online repository into a local repository. That is, when you want to work on a repository hosted on github, you clone that repository to your computer, work on it, and then ask for permission to update the changes online.
 
 ---------------------------------------------------------------------------
 
-# Comandos Básicos Git Bash
+# Basic Git Bach Commands
 
- - git --version (vê a versão do Git)
- - git init (inicializa um repositório git, já entra em uma branch master)
- - git add (adiciona uma alteração no diretório ativo à área de staging)
- - git add . (adiciona todas as alterações de uma vez à área de staging)
- - git commit -m "..." (faz um commit)
- - git branch -M "..." (altera o nome da branch)
- - git push origin "nome da branch" (coloca suas alterações no repositório do GitHub)
- - git checkout "nome da branch" (entra na branch escolhida)
- - git merge "nome da branch" (junta a branch escolhina na atual (main))
+ - git --version (see the git version)
+ - git init (initializes a git repository, already inside a master branch)
+ - git add (adds an active directory change to the staging area)
+ - git add . (adds all changes made to the working directory to the staging area)
+ - git commit -m "..." (make a commit)
+ - git branch -M "..." (change the branch name)
+ - git push origin "nome da branch" (push your changes to the GitHub repository)
+ - git checkout "nome da branch" (enter the chosen branch)
+ - git merge "nome da branch" (join the chosen branch to the current one (main))
 
 ---------------------------------------------------------------------------
 
